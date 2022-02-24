@@ -1,0 +1,100 @@
+@keyframes anim{
+    from{
+        bottom: -100%;
+    }
+    to{
+        bottom: 15%;
+    }
+}
+
+@keyframes anim2{
+    from{
+        right: 0%;
+        width: 530px;
+    }
+    to{
+        width: 0px;
+        right: 49%;
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+       
+
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    margin: 0px;
+    background: #000100;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    
+}
+
+
+#box1{
+    width: 930px;
+    height: 625px;
+    background-image: url(esiee-it-formation-informatique.jpg);
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    animation: anim 2s forwards, anim2 3s forwards 3s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
+    
+}
+
+#box1:after{
+    content: ' ';
+    position: absolute;
+    width: 930px;
+    height: 625px;
+    right: 0%;
+    background-image: url(esiee-it-formation-informatique.jpg);
+    z-index: 1;
+
+}
+
+
+#box2{
+    width: auto;
+    height: auto;
+    font-family: 'Lobster';
+    color: white;
+    font-size: 10em;
+    font-weight: 130px;
+    position: absolute;
+    top:30px;
+    overflow: hidden;
+
+
+}
+
+#text{
+    position: relative;
+    left: -100%;
+    animation: anim3 3s forwards 3s;
+ }   
+    
+    @keyframes anim3{
+        from{
+            left:-100%;
+        }
+        to{
+            left: 0%;
+        }
+    }
+
+#box3{
+    overflow:hidden;
+}
+
+
