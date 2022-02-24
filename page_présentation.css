@@ -41,7 +41,7 @@ body{
 #box1{
     width: 930px;
     height: 625px;
-    background-image: url(esiee-it-formation-informatique.jpg);
+    background-image: url(./Images/esiee-it-formation-informatique.jpg);
     position: absolute;
     bottom: -100%;
     right: 0%;
@@ -58,7 +58,7 @@ body{
     width: 930px;
     height: 625px;
     right: 0%;
-    background-image: url(esiee-it-formation-informatique.jpg);
+    background-image: url(./Images/esiee-it-formation-informatique.jpg);
     z-index: 1;
 
 }
