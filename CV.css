@@ -1,23 +1,33 @@
 @media screen and (max-width: 576px) { 
-    body{
+
+    #body{
+        font-size: 2vw;
+    }
+    #body h1, .mode{
         font-size: 3vw;
     }
-    h1{
-        font-size: 3vw;
-    }
-   
     .info-container{
         font-size: 3vw;
     }
-    header{
-        font-size: 3vw;
+    header, header h1{
         width: 100%;
-        margin-top: 5%;
+        height: 100%;
+        font-size: 3vw;
+        background-color: #000100;
+        text-align: center;
+    }
+
+    header .imgg{
+        width: 3.25rem;
+        height: 3.25rem;
+        align-items: center;
+
     }
     .photocv{
         width: 40vw;
         height: 57vw;
     }
+    
 
 }
 
@@ -35,8 +45,9 @@
         text-align: center;
         font-size: 1vw;
         
-        
     }
+
+    
 }
 
 body{
@@ -111,34 +122,34 @@ header address{
 
 
 
-    html, body {
-        background-color: white;
-     }
-         
-      .btn {
-        cursor: pointer;
-        border: 1px solid #555;
-        border-radius: 40%;
-        width: 5vw;
-        text-align: center;
-        padding: 5px;
-        margin-left: 8px;
-      }
-      
-      .dark-mode {
-      filter: invert(100%)
-      }
+html, body {
+    background-color: white;
+    }
+        
+    .ON {
+    cursor: pointer;
+    border: 0.06609385327164574vw 
+    solid #555;
+    border-radius: 40%;
+    width: auto;
+    text-align: center;
+    padding: 0.3304692663582287vw;
+    }
+    
+    .dark-mode {
+    filter: invert(100%)
+    }
 
-      .dark-mode .photocv {
-        filter: invert(100%)
-      }
+    .dark-mode .photocv {
+    filter: invert(100%)
+    }
 
-      .imgg{
+    .imgg{
+    filter: invert(100%);
+    width: 4.125vw;
+    height: 4.125vw;
+    }
+
+    .dark-mode .imgg{
         filter: invert(100%);
-        width: 4.125vw;
-        height: 4.125vw;
-      }
-
-      .dark-mode .imgg{
-          filter: invert(100%);
-      }
+    }
